@@ -36,7 +36,7 @@ FastAPI + OpenAI chatbot to convert natural language question into SQL Server SE
 ## Run
 
 ```bash
-uvicorn main:app --reload --port 8000
+python -m uvicorn main:app --reload
 ```
 
 ## Usage
